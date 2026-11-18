@@ -1,0 +1,157 @@
+
+/* CONFIGURAÇÃO DA PÁGINA */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f5ed;
+    color: #263329;
+
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: white;
+    padding: 20px;
+
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+header h2 {
+    color: #234b35;
+}
+
+/* MENU */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #234b35;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+/* CONTEÚDO */
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+/* TÍTULOS */
+
+h1 {
+    color: #234b35;
+    font-size: 36px;
+}
+
+h2 {
+    color: #234b35;
+    
+}
+
+h3 {
+    color: #376747;
+}
+
+/* PARÁGRAFOS */
+
+p {
+    color: #6d776e;
+    font-size: 16px;
+}
+
+/* SEÇÕES */
+
+section {
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+/* LINKS */
+
+section a {
+    color: white;
+    background-color: #234b35;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* ESPAÇO DA IMAGEM */
+
+.imagem {
+    background-color: #d9e7bd;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+/* IMAGEM DA FAZENDA */
+
+.imagem img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}
+
+/* ESPAÇO DA IMAGEM */
+
+.imgproduto {
+    text-align: left;
+}
+
+/* IMAGEM DO PRODUTO */
+
+.imgproduto img {
+    width: 200px;
+    height: 180px;
+    object-fit: contain;
+}
+
+/* CATEGORIAS */
+
+/* ORGANIZAÇÃO DAS CATEGORIAS */
+
+.categorias {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* CAIXAS DAS CATEGORIAS */
+
+.categoria {
+    background-color: white;
+    padding: 20px;
+    width: 20%;
+    margin-bottom: 15px;
+}
+/* PRODUTOS */
+
+.produto {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #234b35;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}

@@ -1,0 +1,154 @@
+
+/* CONFIGURAÇÃO GERAL */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f5ed;
+    color: #263329;
+}
+
+/* CONTAINER */
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+/* LOGO */
+
+.brand {
+    color: #234b35;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* MENU */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #234b35;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #d77b36;
+}
+
+/* INTRODUÇÃO */
+
+.page-intro {
+    background-color: #e9e3d2;
+    padding: 40px;
+}
+
+.eyebrow {
+    color: #376747;
+    font-weight: bold;
+}
+
+/* TÍTULOS */
+
+h1, h2, h3 {
+    color: #234b35;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* PARÁGRAFOS */
+
+p {
+    color: #6d776e;
+    line-height: 1.5;
+}
+
+/* SEÇÃO DE PROMOÇÕES */
+
+.section {
+    padding: 50px 0;
+}
+
+/* ORGANIZAÇÃO DOS PRODUTOS */
+
+.grid-3 {
+    display: flex;
+    gap: 20px;
+}
+
+/* CARTÃO DO PRODUTO */
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    width: 33.33%;
+}
+
+/* ESPAÇO DAS IMAGENS */
+
+.image-placeholder {
+    background-color: #d9e7bd;
+    padding: 60px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ETIQUETA DE DESCONTO */
+
+.tag {
+    display: inline-block;
+    background-color: #f8e5d5;
+    color: #a8541e;
+    padding: 7px 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* PREÇO ANTIGO */
+
+.old-price {
+    color: #9a9f97;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+/* PREÇO PROMOCIONAL */
+
+.price {
+    color: #234b35;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #234b35;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: white;
+}
+
+footer .brand {
+    color: white;
+}
