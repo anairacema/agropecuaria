@@ -1,0 +1,43 @@
+-index
+
+HTML:
+Separei as principais tags que aparecem no seu projeto:
+
+Tag	Para que serve
+html		Inicia o documento HTML.
+head		Guarda configurações da página.
+title		Define o título da aba.
+link		Conecta o arquivo CSS.
+body		Contém o conteúdo visível.
+header		Cabeçalho do site.
+nav			Menu de navegação.
+main		Conteúdo principal.
+section		Divide o conteúdo em partes.
+div			Agrupa elementos.
+h1, h2, h3	Títulos e subtítulos.
+p			Parágrafos.
+a			Links para outras páginas.
+footer		Rodapé.
+
+Uma dica importante para seu curso
+Você vai perceber que usei algumas classes, como:
+
+- class="imagem"
+- class="categoria"
+- class="produto"
+Elas servem para conectar o HTML ao CSS.
+
+CSS:
+
+Propriedades que você vai praticar
+
+Propriedade				Função
+background-color		Cor de fundo
+color					Cor do texto
+font-family				Tipo da fonte
+font-size				Tamanho da fonte
+margin					Espaçamento externo
+padding					Espaçamento interno
+text-align				Alinhamento do texto
+text-decoration			Decoração do texto
+width					Largura

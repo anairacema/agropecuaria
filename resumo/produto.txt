@@ -1,0 +1,45 @@
+PRODUTOS
+
+Nesta página, você praticou a criação de um catálogo de produtos, utilizando cartões para organizar imagens, nomes, descrições e preços.
+
+HTML
+Separei as principais tags que aparecem na página:
+
+Tag			Para que serve
+article		Agrupa o conteúdo de cada produto.
+div			Agrupa elementos.
+img			Insere imagens na página.
+h3			Apresenta o nome do produto.
+p			Apresenta a descrição do produto.
+span		Destaca informações, como o preço.
+a			Cria links para outras páginas.
+section		Divide o conteúdo em partes.
+
+Uma dica importante para seu curso
+Você utilizou algumas classes novas:
+
+- class="grid-3"
+- class="product-card"
+- class="image-placeholder"
+- class="price"
+Elas servem para conectar o HTML ao CSS e personalizar cada parte do catálogo.
+
+
+CSS
+Propriedades que você vai praticar:
+
+Propriedade			Função
+display				Define como os elementos serão organizados.
+flex-wrap			Permite que os elementos passem para outra linha.
+gap					Define o espaço entre os elementos.
+width				Define a largura.
+height				Define a altura.
+padding				Define o espaçamento interno.
+margin				Define o espaçamento externo.
+background-color	Define a cor de fundo.
+color				Define a cor do texto.
+text-align			Define o alinhamento do texto.
+object-fit			Controla como a imagem se ajusta ao espaço.
+font-size			Define o tamanho da fonte.
+font-weight			Define a espessura da fonte.
+
