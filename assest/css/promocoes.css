@@ -1,4 +1,3 @@
-
 /* CONFIGURAÇÃO GERAL */
 
 body {
@@ -31,21 +30,31 @@ header {
     text-decoration: none;
 }
 
-/* MENU */
+/* MENU DE NAVEGAÇÃO */
 
 nav {
-    margin-top: 15px;
+    background-color: #234b35;
+    padding: 15px 20px;
+    margin: 15px -20px -20px;
 }
+
+/* LINKS DO MENU */
 
 nav a {
-    color: #234b35;
+    color: white;
     text-decoration: none;
     margin-right: 20px;
+    padding: 10px;
+    display: inline-block;
 }
 
+/* EFEITO AO PASSAR O MOUSE */
+
 nav a:hover {
-    color: #d77b36;
+    background-color: #376747;
+    color: white;
 }
+
 
 /* INTRODUÇÃO */
 
@@ -105,9 +114,17 @@ p {
 
 .image-placeholder {
     background-color: #d9e7bd;
-    padding: 60px 10px;
+    padding: 20px;
     text-align: center;
     margin-bottom: 20px;
+    height: 220px;
+    box-sizing: border-box;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 /* ETIQUETA DE DESCONTO */
@@ -141,14 +158,14 @@ p {
 
 footer {
     background-color: #234b35;
-    padding: 25px;
-    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
 }
 
-footer p {
+footer h3 {
     color: white;
 }
 
-footer .brand {
+footer p {
     color: white;
 }

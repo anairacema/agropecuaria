@@ -1,0 +1,143 @@
+
+/* CONFIGURAÇÕES GERAIS */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f5ed;
+    color: #263329;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+header h2 {
+    color: #234b35;
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav {
+    background-color: #234b35;
+    margin: 15px -20px -20px;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #376747;
+    color: white;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #234b35;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    color: #6d776e;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* INFORMAÇÕES DE CONTATO */
+ul {
+    color: #263329;
+    line-height: 1.5;
+    padding-left: 30px;
+}
+
+li {
+    font-size: 16px;
+}
+
+/* FORMULÁRIO */
+form {
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+/* RÓTULOS DOS CAMPOS */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #263329;
+    font-weight: bold;
+}
+
+/* CAMPOS DE TEXTO */
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* CAMPO DE MENSAGEM */
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* BOTÃO */
+form button {
+    background-color: #234b35;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #376747;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #234b35;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer h3,
+footer p {
+    color: white;
+}

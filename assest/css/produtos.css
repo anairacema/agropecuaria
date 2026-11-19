@@ -31,20 +31,29 @@ header {
     text-decoration: none;
 }
 
-/* MENU */
+/* MENU DE NAVEGAÇÃO */
 
 nav {
-    margin-top: 15px;
+    background-color: #234b35;
+    padding: 15px 20px;
+    margin: 15px -20px -20px;
 }
+
+/* LINKS DO MENU */
 
 nav a {
-    color: #234b35;
+    color: white;
     text-decoration: none;
     margin-right: 20px;
+    padding: 10px;
+    display: inline-block;
 }
 
+/* EFEITO AO PASSAR O MOUSE */
+
 nav a:hover {
-    color: #d77b36;
+    background-color: #376747;
+    color: white;
 }
 
 /* INTRODUÇÃO DA PÁGINA */
@@ -141,18 +150,37 @@ p {
     background-color: #376747;
 }
 
+/* BOTÃO DETALHES DO PRODUTO */
+
+.detalhes {
+    margin-top: 20px;
+}
+
+.detalhes a {
+    display: inline-block;
+    background-color: #234b35;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.detalhes a:hover {
+    background-color: #376747;
+}
+
 /* RODAPÉ */
 
 footer {
     background-color: #234b35;
-    padding: 25px;
-    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    color: white;
 }
 
 footer p {
     color: white;
 }
 
-footer .brand {
-    color: white;
-}
