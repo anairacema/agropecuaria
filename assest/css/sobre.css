@@ -13,6 +13,7 @@ body {
 .container {
     width: 90%;
     margin: auto;
+    box-sizing: border-box;
 }
 
 /* CABEÇALHO */
@@ -61,6 +62,7 @@ nav a:hover {
 .page-intro {
     background-color: #e9e3d2;
     padding: 40px;
+    box-sizing: border-box;
 }
 
 .eyebrow {
@@ -110,6 +112,7 @@ p {
     width: 50%;
     padding: 100px 20px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 /* MISSÃO, VISÃO E VALORES */
@@ -126,6 +129,7 @@ p {
     background-color: white;
     padding: 25px;
     width: 33.33%;
+    box-sizing: border-box;
 }
 
 /* RODAPÉ */
@@ -136,73 +140,87 @@ footer {
     text-align: center;
 }
 
-footer h3 {
-    color: white;
-}
-
+footer h3,
 footer p {
     color: white;
 }
 
 /* AJUSTES PARA CELULAR */
+
 @media (max-width: 768px) {
 
-    /* Cabeçalho */
+    /* CABEÇALHO */
+
     header {
         padding: 15px;
     }
 
-    /* Menu */
+    /* MENU */
+
     nav {
         display: flex;
         flex-wrap: wrap;
         gap: 5px;
+        margin: 15px -15px -15px;
+        padding: 10px;
     }
 
     nav a {
-        margin-right: 5px;
+        margin: 0;
+        padding: 10px;
     }
 
-    /* Conteúdo */
-    main {
-        width: 95%;
+    /* CONTAINER */
+
+    .container {
+        width: 100%;
     }
 
-    section {
-        padding: 15px;
+    /* INTRODUÇÃO */
+
+    .page-intro {
+        padding: 25px 20px;
     }
 
     h1 {
         font-size: 28px;
     }
 
-    /* Categorias */
-    .categorias {
+    h2 {
+        font-size: 24px;
+    }
+
+    /* SEÇÕES */
+
+    .section {
+        padding: 25px 15px;
+    }
+
+    /* HISTÓRIA E IMAGEM */
+
+    .content-split {
         flex-direction: column;
+        gap: 20px;
     }
 
-    .categoria {
+    .image-placeholder {
         width: 100%;
-        box-sizing: border-box;
+        padding: 60px 15px;
     }
 
-    /* Produtos */
-    .grid-3 {
+    /* VALORES */
+
+    .values {
         flex-direction: column;
+        gap: 15px;
     }
 
-    .produto {
+    .value {
         width: 100%;
     }
 
-    /* Imagens */
-    .imagem img,
-    .imgproduto img {
-        max-width: 100%;
-        height: auto;
-    }
+    /* RODAPÉ */
 
-    /* Rodapé */
     footer {
         padding: 15px;
     }
